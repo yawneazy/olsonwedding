@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83fa7e6d.css",
+    "main.js": "/static/js/main.ae19f0e7.js",
+    "static/js/453.9db8017c.chunk.js": "/static/js/453.9db8017c.chunk.js",
+    "static/media/reception-thumbnail.jpg": "/static/media/reception-thumbnail.af278f8bc1fff7a11e00.jpg",
+    "static/media/bride-groom.jpg": "/static/media/bride-groom.6b67118b4d6ef7c136d8.jpg",
+    "static/media/family-bridal.jpg": "/static/media/family-bridal.df46998c595e46dbdff8.jpg",
+    "static/media/ceremony-thumbnail.jpg": "/static/media/ceremony-thumbnail.8cca938c8a54c716d53f.jpg",
+    "static/media/getting-ready-thumbnail.jpg": "/static/media/getting-ready-thumbnail.24951ff4f384aceb7d53.jpg",
+    "index.html": "/index.html",
+    "main.83fa7e6d.css.map": "/static/css/main.83fa7e6d.css.map",
+    "main.ae19f0e7.js.map": "/static/js/main.ae19f0e7.js.map",
+    "453.9db8017c.chunk.js.map": "/static/js/453.9db8017c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83fa7e6d.css",
+    "static/js/main.ae19f0e7.js"
+  ]
+}
