@@ -1,0 +1,132 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+.back-button {
+ color: black;
+ text-decoration: none;
+ margin: 30px;
+ font-size: 35px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.gallery-page {
+  max-width: 1500px;
+    padding: 20px;
+    /* height: 100vh; Ensures the page takes full height of the viewport */
+    display: flex;
+    flex: flex-wrap;
+    align-items: center;
+  }
+  
+  .gallery-header {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    text-align: left; 
+    position: relative;
+    font-size: 50px;
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .gallery-header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: black;
+    margin-top: 5px;
+  }
+
+.gallery-text {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .thumbnail {
+    width: 400px;
+    height: 400px;
+    flex: 1 1 calc(33.33% - 20px); /* Adjust width to fit three thumbnails per row with spacing */
+    max-width: 400px; 
+    height: auto; /* Adjust height to maintain aspect ratio */
+    position: relative;
+    margin: 10px; 
+  }
+  
+.thumbnail img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  filter: grayscale(100%) contrast(150%);
+  transition: filter 0.5s;
+}
+
+  .thumbnail:hover .overlay {
+    opacity: 1;
+  }
+
+  .thumbnail:hover img {
+    filter: grayscale(0%) contrast(100%);
+  }
+  
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+@media (max-width: 450px) {
+  .sections {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .thumbnail {
+    flex: 1 1 100%; 
+    max-width: 100%; 
+    margin: 0 auto;
+  }
+}
+
+/* @media (max-width: 400px) {
+
+} */
