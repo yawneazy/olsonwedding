@@ -11,7 +11,7 @@ import receptionThumb from '../images/reception-thumbnail.jpg'
 export default function MainGallery() {
   return (
   <div>
-            <h1 className="gallery-header">Gallery</h1>
+            <h1 className="gallery-header">Gallery!</h1>
     <div className="gallery-page">
       <div className="sections">
         <Link to="/maingallery/getting-ready" className="thumbnail-link">
